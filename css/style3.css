@@ -56,9 +56,17 @@ body {
 	margin-top: 0px;
 	border-top:1px solid #000
 }
-#masthead img {
-	float: left;
+#masthead img {float: left}
+.cycle {cursor:move}
+.mic {
+	background:url(http://public.sn2.livefilestore.com/y1pPAvZ8-MzKNLdwnoBug0iUyUgHHdtnLsZzP7My0dfmik5t2UNgxI8lC8t1JoNyN2QnhJU227uC_Cip_wOFMnPGg/Panorama_1.1.jpg);
+	height:320px
 }
+.mare {
+	background:url(http://waoomw.sn2.livefilestore.com/y1pxbdzk1KDz6vfi2-BZZGJ0xs4rTZYkEP1iYJV_9tk8uw5PK1eSjqZDGWAXFWeICOnjz7haz8mLKNPaOMii6rT9VHKS2UeMhUG/Panorama_1.jpg);
+	height:480px
+}
+http://sdrv.ms/13NzXjf
 #map {
 	float:right;margin:10px;
 	width:60%;height:400px;
