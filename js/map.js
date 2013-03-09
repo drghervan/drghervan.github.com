@@ -6,7 +6,7 @@
 	  disableDefaultUI: false,
 	  zoomControl: true,
 	  streetViewControl: true,
-      mapTypeId:google.maps.MapTypeId.SATTELLITE,
+      mapTypeId: google.maps.MapTypeId.SATTELLITE
     };
 	var map = new google.maps.Map(document.getElementById("map"), myOptions);
 	var marker = new google.maps.Marker({
