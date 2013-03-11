@@ -1,12 +1,15 @@
-﻿@import url("layout.css");
+﻿@import url('http://fonts.googleapis.com/css?family=Tangerine|Lobster|Astloch:700');
+@import url('reset.css');
+@charset "iso-8859-2";
 body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 	color: #000;
 	background-color: #67b;
+/*	background: url('../images/bkg.jpg') repeat-x left top fixed*/
 }
 #container {
-	width: 850px;/*630*/
+	width: 900px;/*630*/
 	margin: 0 auto;
 	background-color: #cdf;
 	border-left:1px solid #000;
@@ -15,8 +18,8 @@ body {
 }
 #masthead {
 	text-align: right;
-	width: 850px;/*630*/
-	height:180px;
+	width: 900px;/*630*/
+	height:200px;
 	overflow: auto;
 	background: #ddd url('../images/logo_sh.jpg');/*ddb*/
 	border-bottom:1px solid #000
@@ -31,25 +34,25 @@ body {
 }
 #content {
 	float: left;
-	width: 666px;/*446*/
-	min-height:500px;
+	width: 716px;/*446*/
+	height:580px;
 	background-color: #fff;
 	margin: 0px; padding: 15px;
 	overflow: auto;
 	position: relative;
 }
-#content h1,h2,h3,h4 {
+#content h1,h2,h3,h4,h5 {
 	text-align: left;
 	margin: 0;padding: 0;
-	margin-top: 5px;
+	margin-top:5px;
 	color:#444
 }
-#content img {margin:4px;border:1px solid #000099}/*display:block*/
+#content img {margin:4px;border-width:0}/*1px solid #000099;display:block*/
 #slideshow {width:460px;height:340px;margin-left:10px;float:right}
 #slideshow img {display:none}
 #footer {
 	clear: both;
-	width: 850px;/*630*/
+	width: 900px;/*630*/
 	background-color: #555;/*dcb*/
 	padding: 0;
 	overflow: auto;
@@ -57,27 +60,27 @@ body {
 	border-top:1px solid #000
 }
 #masthead img {float: left}
-.cycle {cursor:move;border:1px solid #000099}
+.cycle {cursor:move}
 .mic {
 	background:url(http://public.sn2.livefilestore.com/y1pPAvZ8-MzKNLdwnoBug0iUyUgHHdtnLsZzP7My0dfmik5t2UNgxI8lC8t1JoNyN2QnhJU227uC_Cip_wOFMnPGg/Panorama_1.1.jpg);
-	height:320px
+	height:320px;width:680px
 }
 .mare {
 	background:url(http://waoomw.sn2.livefilestore.com/y1pxbdzk1KDz6vfi2-BZZGJ0xs4rTZYkEP1iYJV_9tk8uw5PK1eSjqZDGWAXFWeICOnjz7haz8mLKNPaOMii6rT9VHKS2UeMhUG/Panorama_1.jpg);
 	height:480px
 }
 #map {
-	float:right;margin:10px;
-	width:60%;height:400px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	border:1px solid #000000;
+	float:right;margin:4px;
+	width:56%;height:250px;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	border:1px solid #CCCCCC;
 }
 /* Styles for Navigation */
 #sidebar ul {
 	list-style-type: none;
-	width: 100%;
+	width:100%;
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -91,16 +94,17 @@ body {
 	text-decoration: none;
 	color: #04b;
 	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #f9f9f9;
+	padding: 6px 12px;
+	border-bottom: 1px solid #fff;
 }
 #sidebar a:hover {
 	font-weight: bold;
 	text-decoration: none;
 	color: #04b;
-	border-bottom: 1px solid #f9f9f9;
+	border-bottom: 1px solid #fff;
 	background-color: #f9f9f9;
 }
+
 /* Styles for Footer */
 #footer p {
 	font-size:0.9em;color:#bbb;
@@ -125,7 +129,11 @@ a:hover {
 }
 .style_bold {
 	font-weight: bold;
+	font-stretch:expanded;
 }
 .style_italic {
 	font-style: italic;
+}
+.float_right {
+	float:right;
 }

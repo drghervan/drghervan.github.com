@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="ro">
 
 <!-- #BeginTemplate "zero.dwt" -->
 
@@ -9,8 +9,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- #BeginEditable "doctitle" -->
-<title>Dr. Ghervan Ovidiu, cabinet neurologie Alba Iulia | sitemap</title>
-<meta name="description" content="Dr. Ghervan Ovidiu, cabinet neurologie Alba Iulia - sitemap"/>
+<title>Dr. Ghervan Ovidiu, cabinet neurologie Alba Iulia | Programari</title>
+<meta name="description" content="Cabinet neurologie Alba Iulia, dr. Ghervan Ovidiu - consultatii neurologie, electromiografie - programari"/>
 <!-- #EndEditable -->
 <meta name="author" content="Promovis">
 <link type="text/css" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
@@ -52,20 +52,65 @@
 		<!-- Begin Content -->
 		<div id="content">
 			<!-- #BeginEditable "content" -->
-			<h2>Site Map</h2>
+		<!--<h2>Programari</h2>
 			<hr/>
-			<p><a href="index.html">Pagina principala</a><br/>
-			Dr. Ghervan Ovidiu, medic primar neurolog, C.M.I. Neurologie</p>
-			<p><a href="galerie-foto.html">Galerie Foto</a><br />
-			Galerie foto - cabinet neurologie Dr. Ghervan Ovidiu</p>
-			<p><a href="servicii-medicale.html">Servicii medicale</a><br />
-			Ce este Electromiografia - informatii pentru pacienti</p>
-			<p><a href="informatii-pacienti.html">Informatii pacienti</a><br />
-			Ce este Electromiografia - informatii pentru pacienti</p>
-			<p><a href="programari.html">Programari</a><br />
-			Ce este Electromiografia - informatii pentru pacienti</p>
-			<p><a href="localizare.html">Localizare</a><br />
-			Localizare cabinet neurologie Dr. Ghervan Ovidiu</p>
+			<ul>
+				<li><strong>Programare consultatie<br/>Tel: 0742837125</strong></li>
+				<li><strong>Programare online - click aici</strong><br>(veti primi raspuns  in 24 ore)</li>
+				<li><strong>Programare Electromiografie<br/>Tel: 0742837125</strong></li>
+			</ul> -->
+	<div class="span6 well well-small">
+	<form class="form-horizontal">
+        <fieldset>
+          <legend>Programare online</legend>
+		<div class="control-group">
+			<label class="control-label success" for="input-nume">Nume:</label>
+			<div class="controls">
+				<input type="text" class="input-xlarge focused" id="input-nume" placeholder="Numele complet">
+			</div>
+		</div>
+	<div class="control-group">
+		<label class="control-label" for="input-email">Date personale:</label>
+		<div class="controls">
+			<input type="text" class="input-medium" id="input-email" placeholder="Adresa de email">&nbsp;
+			<input type="text" class="input-medium" id="input-tel" placeholder="Telefon">
+			<span class="help-block">Pentru a primi raspuns trebuie sa completati <u>adresa de email</u></span>
+		</div>
+	</div>
+	<div class="control-group"><!-- alert alert-info -->
+		<div class="controls">
+		<label class="radio inline">
+			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			Consultatie
+		</label>
+		<label class="radio inline">
+			<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+			Electromiografie (EMG)
+		</label>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label" for="input-subiect">Data</label>
+		<div class="controls">
+			<input type="text" class="input-large" id="datepicker" placeholder="Data programarii">
+		</div>
+	</div>
+	
+	<div class="control-group"><!-- input-prepend -->
+		<label class="control-label" for="textarea">Mesaj</label>
+		<div class="controls">
+		<!--<span class="add-on"><i class="icon-exclamation-sign"></i></span> -->
+			<textarea class="input-xlarge" id="textarea" rows="4" placeholder="Mesajul dvs. aici"></textarea>
+		</div>
+		</div>
+		<div class="form-actions">
+			<button type="submit" class="btn btn-inverse">Trimite</button>
+			<button type="reset" class="btn">Renunta</button>
+		</div>
+        </fieldset>
+      </form>
+	</div>
+			
 			<!-- #EndEditable --></div>
 		<!-- End Content --></div>
 	<!-- End Page Content -->
@@ -87,6 +132,20 @@
 <script type="text/javascript" src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
 <!-- #BeginEditable scripts -->
+<script type="text/javascript" src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/minified/i18n/jquery.ui.datepicker-ro.min.js"></script>
+<script>
+  $(function() {
+    $( '#datepicker' ).datepicker({
+      //showMonthAfterYear: false,
+      onDate: $.datepicker.noWeekends,
+      showOn: 'both',
+      buttonImage: 'images/calendar.png',
+      buttonImageOnly: true,
+      dateFormat:'DD, dd MM yy'
+    },
+    $.datepicker.regional['ro']);
+  });
+</script>
 <!-- #EndEditable -->
 </body>
 
