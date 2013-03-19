@@ -71,7 +71,7 @@ body {
 }
 #map {
 	float:right;margin:4px;
-	width:56%;height:250px;
+	width:56%;height:300px;
 	-moz-border-radius:7px;
 	-webkit-border-radius:7px;
 	border-radius:7px;
@@ -136,4 +136,9 @@ a:hover {
 }
 .float_right {
 	float:right;
+}
+
+/* RECAPTCHA */
+.input-recaptcha{
+ width:172px;   
 }

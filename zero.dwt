@@ -6,14 +6,26 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- #BeginEditable "doctitle" -->
-<title></title>
-<!-- #EndEditable -->
-<meta name="author" content="Promovis">
+	<!-- MS/MOZILLA/NETSCAPE BROWSERS ALL REQUIRE THIS META TAG -->
+	<meta http-equiv="Pragma" content="no-cache">
+	<!-- MS BROWSERS REQUIRE THIS ADDITIONAL META TAG AS WELL -->
+	<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="imagetoolbar" CONTENT="no">
+	<!-- #BeginEditable "doctitle" -->
+	<title></title>
+	<!-- #EndEditable -->
+	<meta name="author" content="Promovis">
 <link type="text/css" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/latest/css/font-awesome.css">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/latest/css/font-awesome-ie7.css">
 <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+<style media="print">
+<--
+body {
+display:none;
+}
+-->
+</style>
 <!--[if IE 7]>
 	<link type="text/css" href="css/jquery.ui.1.10.0.ie.css" rel="stylesheet" />
 <![endif]-->
@@ -73,8 +85,14 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script type="text/javascript" src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+	document.body.ondragstart = "return false";
+	document.body.onselectstart = "return false";
+	document.body.oncontextmenu = "return false";
+</script>
 <!-- #BeginEditable scripts -->
 <!-- #EndEditable -->
 </body>
-
+<!-- ADD THIS EXTRA HEAD SECTION IF YOU FIND YOUR PAGES ARE STILL BEING CACHED IN SOME BROWSERS -->
+<head><meta http-equiv="Pragma" content="no-cache"></head>
 </html>

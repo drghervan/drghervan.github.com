@@ -1,0 +1,4 @@
+User-agent: * 
+Sitemap: http://drghervan-cabinet.ro/sitemap.xml
+Disallow: /cgi-bin/
+Disallow: /js/

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://drghervan-cabinet.ro/</loc>
+  <lastmod>2013-03-12T15:03:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://drghervan-cabinet.ro/index.html</loc>
+  <lastmod>2013-03-12T15:03:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://drghervan-cabinet.ro/galerie-foto.html</loc>
+  <lastmod>2013-03-12T15:03:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://drghervan-cabinet.ro/servicii-medicale.html</loc>
+  <lastmod>2013-03-12T15:03:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://drghervan-cabinet.ro/informatii-pacienti.html</loc>
+  <lastmod>2013-03-12T15:03:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://drghervan-cabinet.ro/programari.html</loc>
+  <lastmod>2013-03-12T15:03:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://drghervan-cabinet.ro/localizare.html</loc>
+  <lastmod>2013-03-12T15:03:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://drghervan-cabinet.ro/sitemap.html</loc>
+  <lastmod>2013-03-12T15:03:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>
