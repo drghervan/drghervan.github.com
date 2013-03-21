@@ -137,7 +137,8 @@ a:hover {
 .float_right {
 	float:right;
 }
-
+#vertical img {position:absolute;}
+.clear {overflow:auto;}
 /* RECAPTCHA */
 .input-recaptcha{
  width:172px;   
