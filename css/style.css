@@ -69,6 +69,7 @@ body {
 	background:url(http://waoomw.sn2.livefilestore.com/y1pxbdzk1KDz6vfi2-BZZGJ0xs4rTZYkEP1iYJV_9tk8uw5PK1eSjqZDGWAXFWeICOnjz7haz8mLKNPaOMii6rT9VHKS2UeMhUG/Panorama_1.jpg);
 	height:480px
 }
+.butoane a{text-align:left;padding:3px 0 0 7px;margin-top:7px}
 #map {
 	float:right;margin:4px;
 	width:56%;height:300px;
@@ -92,9 +93,9 @@ body {
 #sidebar a {
 	font-weight: bold;
 	text-decoration: none;
-	color: #04b;
+	color: #037;
 	display: block;
-	padding: 6px 12px;
+	padding: 7px 14px;/*6 12*/
 	border-bottom: 1px solid #fff;
 }
 #sidebar a:hover {
@@ -102,7 +103,7 @@ body {
 	text-decoration: none;
 	color: #04b;
 	border-bottom: 1px solid #fff;
-	background-color: #f9f9f9;
+	background-color: #fff;
 }
 
 /* Styles for Footer */
