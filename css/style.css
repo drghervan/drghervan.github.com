@@ -5,16 +5,15 @@ body {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 	color: #000;
-	background-color: #67b;
-/*	background: url('../images/bkg.jpg') repeat-x left top fixed*/
+	background: #67b url('../images/dr_Ghervan_foto_190x320.jpg') no-repeat left 201px fixed
 }
 #container {
 	width: 900px;/*630*/
-	margin: 0 auto;
-	background-color: #cdf;
-	border-left:1px solid #000;
-	border-right:1px solid #000;
-	border-bottom:1px solid #000
+	margin: 0 190px;
+	background-color: #ccddff;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000
 }
 #masthead {
 	text-align: right;
@@ -53,7 +52,7 @@ body {
 #footer {
 	clear: both;
 	width: 900px;/*630*/
-	background-color: #555;/*dcb*/
+	background-color: #555555;/*dcb*/
 	padding: 0;
 	overflow: auto;
 	margin-top: 0px;
@@ -71,8 +70,8 @@ body {
 }
 .butoane a{text-align:left;padding:3px 0 0 7px;margin-top:7px}
 #map {
-	float:right;margin:4px;
-	width:56%;height:300px;
+	float:right;margin:5px;
+	width:56%;height:320px;
 	-moz-border-radius:7px;
 	-webkit-border-radius:7px;
 	border-radius:7px;
