@@ -1,8 +1,8 @@
-﻿@import url('http://fonts.googleapis.com/css?family=Tangerine|Lobster|Astloch:700');
+@import url('http://fonts.googleapis.com/css?family=Tangerine|Lobster|Astloch:700');
 @import url('reset.css');
 @charset "iso-8859-2";
 body {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: "Lobster", Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 	color: #000;
 	background: #67b url('../images/dr_Ghervan_foto_190x320.jpg') no-repeat left 201px fixed
