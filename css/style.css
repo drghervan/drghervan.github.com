@@ -2,10 +2,10 @@
 @import url('reset.css');
 @charset "iso-8859-2";
 body {
-	font-family: "Lobster", Arial, Helvetica, sans-serif;
+	font-family: "Astloch:700", Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 	color: #000;
-	background: #67b url('../images/dr_Ghervan_foto_190x320.jpg') no-repeat left 201px fixed
+	background-color: #67b
 }
 #container {
 	width: 900px;/*630*/
