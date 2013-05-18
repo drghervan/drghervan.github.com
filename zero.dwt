@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ro">
 
 <head>
@@ -41,9 +41,9 @@ display:none;
 <!-- GA script -->
 	<script>var _gaq=[['_setAccount','UA-39210247-1'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))</script>
 </head>
-
+<!-- #BeginEditable "body" -->
 <body>
-
+<!-- #EndEditable -->
 <!-- Begin Container -->
 <div id="container">
 	<!-- Begin Masthead -->
