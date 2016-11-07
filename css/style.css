@@ -17,8 +17,9 @@ body {
 #competent {
 	float: left;
 	width: 190px;/*446*/
-	min-height:220px;
+	height:220px;
 	background-color: #000;
+	color: #ff0000;
 	margin: 0px; padding: 15px;
 	overflow: auto;
 	position: relative;
