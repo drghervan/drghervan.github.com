@@ -14,6 +14,16 @@ body {
 	border-right:1px solid #000000;
 	border-bottom:1px solid #000000
 }
+#competent {
+	float: left;
+	width: 190px;/*446*/
+	min-height:220px;
+	background-color: #000;
+	margin: 0px; padding: 15px;
+	overflow: auto;
+	position: relative;
+}
+
 #masthead {
 	text-align: right;
 	width: 900px;/*630*/
