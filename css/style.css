@@ -6,6 +6,29 @@ body {
 	color: #000;
 	background-color: #67b
 }
+#mleft {
+	float: left;
+	width: 190px;
+	background-color: #000;
+	position: relative;
+	clear: both;
+	display: inline;
+	color: #FF0000;
+}
+#mleft p {
+	margin: 12px 0 0 12px
+}
+#mleft h5 {
+	margin: 12px 0 0 12px;
+	color: #fff;
+}
+#logo {
+	text-align: center;
+	width: 180px;/*630*/
+	height:170px;
+	background-color: #fff;
+	padding: 30px 10px 0 0;
+}
 #container {
 	width: 900px;/*630*/
 	margin: 0 190px;
@@ -14,17 +37,6 @@ body {
 	border-right:1px solid #000000;
 	border-bottom:1px solid #000000
 }
-#competent {
-	float: left;
-	width: 190px;/*446*/
-	height:220px;
-	background-color: #000;
-	color: #ff0000;
-	margin: 0px; padding: 15px;
-	overflow: auto;
-	position: relative;
-}
-
 #masthead {
 	text-align: right;
 	width: 900px;/*630*/
@@ -33,6 +45,9 @@ body {
 	background: #ddd url('../images/logo_sh.jpg');/*ddb*/
 	border-bottom:1px solid #000
 }
+#page_content {
+	float:left
+}
 #sidebar {
 	float: left;
 	width: 154px;
@@ -40,6 +55,17 @@ body {
 	position: relative;
 	clear: both;
 	display: inline;
+}
+#competente {
+	float: right;
+	margin: 24px 40px 0 0;
+}
+#cons {
+	float: right;
+	margin: 20px 20px 0 0;
+}
+#cons h5 {
+	color: #ff0000;
 }
 #content {
 	float: left;
