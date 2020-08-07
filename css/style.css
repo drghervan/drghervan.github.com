@@ -140,7 +140,12 @@ body {
 	border-bottom: 1px solid #fff;
 	background-color: #fff;
 }
-
+.jumbotron {
+	/* background-color: #836969;
+	color: #fff;*/
+	padding: 7px;
+	border: 7px solid #FF0000;
+}
 /* Styles for Footer */
 #footer p {
 	font-size:0.9em;color:#bbb;
